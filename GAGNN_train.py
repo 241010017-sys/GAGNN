@@ -15,7 +15,7 @@ adjacency_matrix = pd.read_csv("./data/adjacency_matrix.csv", index_col=0).value
 semantic_adjacency_matrix = pd.read_csv("./data/semantic_adjacency_matrix_bus.csv", index_col=0).values
 poi_features = pd.read_csv("./data/poi_count_by_region.csv", index_col=0).values
 commute_flow_matrix = pd.read_csv("./data/commute_flow_matrix.csv", index_col=0).values
-region_distance_matrix = pd.read_csv("./data/commute_flow_matrix45.csv", index_col=0).values
+region_distance_matrix = pd.read_csv("./data/region_distance_matrix.csv", index_col=0).values
 
 # Data preprocessing
 poi_features = poi_features / np.max(poi_features, axis=0)  # Normalize POI features
@@ -180,4 +180,5 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 plt.title('Training and Validation Loss')
+
 plt.show()

@@ -1,6 +1,6 @@
 # GAGNN: A Geography-Aware Graph Neural Network for Citywide Commuting Flows Prediction
 
-This project proposes a commute flow prediction model combining Graph Attention Networks (GAT) and multi-source urban data. By fusing geographic adjacency, semantic adjacency (bus network), and POI features, it achieves precise prediction of inter-regional commute flows.
+This project proposes a commute flow prediction model combining Graph Attention Networks (GAT) and multi-source urban data. By fusing geographic adjacency, semantic adjacency , and POI features, it achieves precise prediction of inter-regional commute flows.
 
 ## 1. Core Features
 * Dual-Graph Fusion: Utilizes both geographic spatial adjacency and semantic (bus) network adjacency simultaneously.
